@@ -1,0 +1,23 @@
+{
+  "name": "benelori/mail-bounce-handler-php",
+  "type": "library",
+  "description": "PHP class to help webmasters handle bounce-back, feedback loop and ARF mails in standard DSN (Delivery Status Notification, RFC-1894).",
+  "keywords": ["php", "mail", "bounce", "dsn", "arf"],
+  "homepage": "https://github.com/benelori/PHP-Bounce-Handler",
+  "authors": [
+    {
+      "name": "benelori",
+      "homepage": "https://github.com/benelori/PHP-Bounce-Handler"
+    }
+
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpMailBounceHandler\\": "src/"
+    }
+  }
+}
