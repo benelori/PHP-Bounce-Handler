@@ -590,6 +590,7 @@ class BounceHandler{
   }
 
   function extract_address($str){
+    $from = '';
     $from_stuff = preg_split('/[ \"\'\<\>:\(\)\[\]]/', $str);
     foreach ($from_stuff as $things){
       if (strpos($things, '@')!==FALSE){$from = $things;}
